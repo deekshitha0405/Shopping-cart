@@ -1,0 +1,9 @@
+.search-input {
+  min-width: 7rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 0.105rem solid #11115f;
+}
+input::placeholder {
+  font-size: 0.75rem;
+}

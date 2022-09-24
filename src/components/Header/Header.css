@@ -1,0 +1,35 @@
+.header {
+  background-color: white;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+  border-bottom: 0.15rem solid #11115f;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  position: relative;
+}
+.pr {
+  padding-right: 0.5rem;
+  border-right: 0.105rem solid #11115f;
+}
+.pl {
+  padding-left: 0.5rem;
+}
+.cart-count {
+  position: absolute;
+  right: 4.05rem;
+  top: -0.5rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.select {
+  min-width: 5rem;
+  padding: 0.5rem;
+}

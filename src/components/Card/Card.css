@@ -1,0 +1,60 @@
+.card-container {
+  background-color: white;
+  min-width: 15rem;
+  border: 0.105rem solid #11115f;
+  border-radius: 0.5rem;
+  min-height: 2rem;
+  padding: 0.5rem;
+  position: relative;
+}
+h3 {
+  color: #11115f;
+}
+.image-container {
+  width: 15rem;
+}
+img {
+  width: 100%;
+}
+.card-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.icons {
+  width: 1.5rem;
+}
+.flex {
+  display: flex;
+}
+.rating {
+  color: grey;
+  font-weight: bold;
+}
+.item-count {
+  position: absolute;
+  right: 3.65rem;
+  top: -0.5rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.mt {
+  margin-top: 0.5rem;
+}
+.price-tag {
+  background: grey;
+  position: absolute;
+  height: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  top: -1rem;
+  left: 0.05rem;
+  border-radius: 0.5rem;
+}
